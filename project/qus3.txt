@@ -1,0 +1,8 @@
+def reverseDisplay(given_str):
+    if len(given_str) == 0:
+        return 
+    print(given_str[-1], end='')
+    reverseDisplay(given_str[0:-1])
+    
+    
+reverseDisplay('abcd')
